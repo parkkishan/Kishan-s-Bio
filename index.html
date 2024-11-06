@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishan's Bio</title>
+    <!---external css ---->
+    <link rel="stylesheet" href="style.css">
+    <!---font awesome cdn for font icons---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<style>
+  
+  .education-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      height: 23rem;
+      margin-top: -2rem;
+      margin-left: -1rem;
+      width: 95%;
+      max-width: 900px;
+    }
+
+
+
+
+
+    
+
+    /* Box Style */
+    .education-box {
+      background-color: #111;
+      border-color: aliceblue;
+      padding: 1px;
+      border-radius: 8px;
+  
+      flex: 1;
+      border: 1px solid #333;
+      padding: 1rem;
+      margin: 1rem;
+
+    }
+
+    /* Responsive Layout */
+    @media (min-width: 768px) {
+      .education-container {
+        flex-direction: row;
+      }
+    }
+
+    /* Education Details Style */
+    .education-box h2 {
+      color: #333;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    .education-box p {
+      color: #666;
+      font-size: 1em;
+      line-height: 1.6;
+    }
+</style>
+<body>
+   <header class="header">
+      <nav class="navbar">
+          <a href="#" class="nav-logo">Kishan - M</a>
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                  <a href="form.html" class="nav-link">Form</a>
+              </li>
+              <li class="nav-item">
+                <a href="mailto:kishanmiskin890@gmail.com" class="nav-link">Contact</a>
+              </li>
+          </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+      </nav>
+  </header>
+
+
+   <div class="container">
+       <div class="profile-card"> 
+            <div class="profile-pic">
+                <img src="crop-my-image2.jpg" alt="user avatar" class="myimg">
+            </div>
+
+            <div class="profile-details">
+                 <div class="intro">
+                    <h2 id="detail">Kishan Miskin</h2>
+                    <h4 id="detail">UI/UX Designer</h4>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook" style="color:var(--blue)"></i></a>
+                        <a href="#"><i class="fab fa-twitter"  style="color:var(--skyblue)"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"  style="color:var(--dark-pink)"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"  style="color:var(--light-blue)"></i></a>
+                    </div>
+                 </div>
+
+                 <div class="contact-info">
+                    <div class="row">
+                         <div class="icon">
+                            <i class="fa fa-phone"  style="color:var(--dark-magenta)"></i>
+                         </div>
+                         <div class="content">
+                            <span>Phone</span>
+                            <h5>+91 99161...</h5>
+                         </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="icon">
+                           <i class="fa fa-envelope-open"  style="color:var(--light-green)"></i>
+                        </div>
+                        <div class="content">
+                           <span>Email</span>
+                           <h5>kishan@gmail.com</h5>
+                        </div>
+                   </div>
+    
+                   <div class="row">
+                    <div class="icon">
+                       <i class="fa fa-map-marker"  style="color:var(--light-purple)"></i>
+                    </div>
+                    <div class="content">
+                       <span>Location</span>
+                       <h5>India, Karnatakas</h5>
+                    </div>
+                 </div>
+
+            </div>
+            <a href="mailto:name@email.com"><button class="download-btn" style="cursor: pointer;"> Contact</button></a>
+            </div>
+       </div>
+
+       <!----about section ------------------------------------ ----->
+       <div class="about">
+           <h1>Education / Skills</h1>
+
+
+          
+              <h2 style="color: rgb(199, 199, 199);">Bachelor of Engineering in Computer Science</h2>
+              <p>Institution: SG Balekundri Institute of Technology</p>
+              <p style="margin-top: -1rem;">Graduation Year: In Process</p>
+              <p style="margin-top: -1rem;">Description: In Bachelor of Engineering in SG Balekundri Institute of Technology, I learned key engineering principles, problem-solving, and practical skills. </p>
+    
+            <!-- Second Education Box -->
+              <h2 style="color: rgb(199, 199, 199);">Diploma in Computer Science</h2>
+              <p>Institution:  Motichand Lengade Bharatesh Polytechnic </p>
+              <p style="margin-top: -1rem;">Graduation Year: 2023</p>
+              <p style="margin-top: -1rem;">Description: In my Computer Science diploma, I learned coding, algorithms, and software development skills, gaining hands-on experience in coding and applications.</p>
+           
+          </div>
+
+          <!-- <p style="color: rgb(153, 153, 153);">Heyy!!,<b style="background-color: rgb(194, 194, 194); color: black;">I'm Kishan Miskin, BE Student in S.G. Balekundri.</b>  a passionate Web Developer with over a year of experience in designing and building dynamic,
+            user-friendly websites. I specialize in crafting responsive, visually appealing web solutions that offer intuitive 
+            experiences on both desktop and mobile devices. With a strong focus on UI/UX design, I strive to merge aesthetics with functionality, ensuring that each project not only looks great but also delivers a seamless user experience.
+         </p> -->
+
+
+          <!-- <p style="color: rgb(153, 153, 153);">
+           <b style="background-color: rgb(194, 194, 194); color: black;">I have an intermediate level of experience in HTML, CSS, JavaScript, and design tools like Figma.</b> Currently pursuing my Bachelor’s in Engineering, 
+            I’m always excited to learn new technologies and take on challenges that push the boundaries of web development.
+          </p> -->
+          <div class="about">
+          <div class="work">
+             <div class="workbox">
+                 <div class="icon">
+                    <img src="images/ui.svg" alt="">
+                 </div>
+                 <div class="desc">
+                  
+                  <img src="figma.png" alt="" style="height: 8rem;">
+                    <h3>UI/UX Designer</h3>
+                    <p>UI: Creates visually engaging, easy-to-use interfaces for digital products.
+                      UX: Designs smooth user journeys to improve overall product experience.</p>
+                 </div>
+             </div>
+
+             <div class="workbox">
+                <div class="icon">
+                   <img src="images/app.svg" alt="">
+                </div>
+                <div class="desc">
+                  <img src="code-icon.png" alt="" style="height: 8rem;">
+                   <h3>App Developement</h3>
+                   
+                   <p>Develops mobile or desktop applications, focusing on responsive, intuitive design for optimal user interaction.</p>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="icon">
+                   <img src="images/api.svg" alt="">
+                </div>
+                <div class="desc">
+                  <img src="data-analysis-img.png" alt="" style="height: 5rem;">
+                   <h3>Data Analysis</h3>
+                   <p>Turns raw data into insights, revealing trends and patterns to support decision-making. Uses tools like SQL and Python for efficient data interpretation</p>
+                </div>
+            </div>
+
+            <div class="workbox">
+                <div class="icon">
+                   <img src="images/web.svg" alt="">
+                </div>
+                <div class="desc">
+                  <img src="web-dev-icon.png" alt="" style="height: 6rem; ">
+                   <h3>Web Developement</h3>
+                   <p>Builds functional websites using coding and server management, focusing on both visible and behind-the-scenes functionality.</p>
+                </div>
+            </div>
+          </div>
+       </div>
+   </div>
+
+
+
+
+   <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <p>&copy; 2024 Kishan Miskin (2BU23CS404) </p>
+        </div>
+    
+        <div class="footer-section">
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section">
+          <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    
+
+
+</body>
+<script>
+   const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+
+// when we click on hamburger icon its close 
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+</script>
+</html>
